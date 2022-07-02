@@ -22,14 +22,30 @@ This assignment consists of 3 technical analysis deliverables and a written repo
 
 - What variable(s) are neither targets nor features, and should be removed from the input data? ***EIN and NAME columns***
 
-![naive.png](/Results/naive.png)
-
 ### Compiling, Training and Evaluating the Model
-How many neurons, layers, and activation functions did you select for your neural network model and why? 
-Were you able to achieve the target model performance?
-What steps did you take to try and increase model performance?
 
-![SMOTE.png](/Results/SMOTE.png)
+#### How many neurons, layers, and activation functions did you select for your neural network model and why? 
+
+- My neural network had 2 hidden layers: layer1 at 80 neurons and layer2 at 30 neurons 
+-To speed up the training process, we are using the activation function ReLU for the hidden layers. As our output is a binary classification, Sigmoid is used on the output layer.
+
+#### Were you able to achieve the target model performance?
+
+- The model accuracy is under 75%. 
+
+#### What steps did you take to try and increase model performance?
+
+- To increase the performance of the modeL I removed the USE_CASE column which caused ------
+
+- Increased the number of neurons on one of the hidden layers, then we used a model with three hidden layers.
+
+![additional_layer_neurons.png](/Results/additional_layer_neurons.png)
+
+- This resulted in a lower accuracy score than the original 70.9% accuracy. 
+
+![additional_layer_neurons.png](/Results/additional_layer_neurons.png)
+
+- I also tried a different activation function (tanh) but none of these steps helped improve the model's performance.
 
 
 ## Summary
