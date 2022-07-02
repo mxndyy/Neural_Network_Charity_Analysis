@@ -2,7 +2,7 @@
 
 ## Analysis Overview 
 
-The purpose of this analysis is 
+The purpose of this analysis is to help Beks create a binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup. 
 
 ## Deliverables:
 This assignment consists of 3 technical analysis deliverables and a written report on the Credit Risk Analysis. 
@@ -15,9 +15,12 @@ This assignment consists of 3 technical analysis deliverables and a written repo
 ## Results
 
 ### Data Preprocessing 
-What variable(s) are considered the target(s) for your model?
-What variable(s) are considered to be the features for your model?
-What variable(s) are neither targets nor features, and should be removed from the input data?
+
+- What variable(s) are considered the target(s) for your model? ***IS_SUCCESSFUL column***
+
+- What variable(s) are considered to be the features for your model? ***Every column except the IS_SUCCESSFUL column***
+
+- What variable(s) are neither targets nor features, and should be removed from the input data? ***EIN and NAME columns***
 
 ![naive.png](/Results/naive.png)
 
