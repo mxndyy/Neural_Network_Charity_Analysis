@@ -31,11 +31,17 @@ This assignment consists of 3 technical analysis deliverables and a written repo
 
 #### Were you able to achieve the target model performance?
 
-- The model accuracy is under 75%. 
+- The model accuracy is under 75% at 70.9%. 
 
 #### What steps did you take to try and increase model performance?
 
-- To increase the performance of the modeL I removed the USE_CASE column which caused ------
+- To increase the performance of the model I removed the USE_CASE column
+
+![USE_CASE.png](/Results/USE_CASE_accuracy.png)
+
+- This caused the accuracy to decrease to 56.5%
+
+![USE_CASE_accuracy.png](/Results/USE_CASE_accuracy.png)
 
 - Increased the number of neurons on one of the hidden layers, then we used a model with three hidden layers.
 
