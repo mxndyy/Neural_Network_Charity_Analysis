@@ -43,7 +43,7 @@ This assignment consists of 3 technical analysis deliverables and a written repo
 
 - This resulted in a lower accuracy score than the original 70.9% accuracy. 
 
-![additional_layer_neurons.png](/Results/additional_layer_neurons.png)
+![additional_layer_neurons_accuracy.png](/Results/additional_layer_neurons_accuracy.png)
 
 - I also tried a different activation function (tanh) but none of these steps helped improve the model's performance.
 
