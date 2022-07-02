@@ -45,7 +45,14 @@ This assignment consists of 3 technical analysis deliverables and a written repo
 
 ![additional_layer_neurons_accuracy.png](/Results/additional_layer_neurons_accuracy.png)
 
-- I also tried a different activation function (tanh) but none of these steps helped improve the model's performance.
+- I also tried a different activation function (tanh) with the original hidden layers and neurons. 
+
+![tanh.png](/Results/tanh.png)
+
+- This resulted in an even lower accuracy score than the second attempt. 
+
+![tanh_accuracy.png](/Results/tanh_accuracy.png)
+
 
 
 ## Summary
