@@ -60,5 +60,5 @@ This assignment consists of 3 technical analysis deliverables and a written repo
 ![tanh_accuracy.png](/Results/tanh_accuracy.png)
 
 
-
 ## Summary
+The model ended up with the accuracy score of 56.5% after optimization. The initial neural network had an accuracy score of 70.9%%. This loss in accuracy can be explained from the fact that the model overfitted. We could also optimize our neural network by adding more data to the dataset to increase accuracy. Since our accuracy score did not meet the standards we could have used the Balanced Random Forest classifiers because of the sufficient number of estimators, tree depth, and faster performance. 
